@@ -174,7 +174,7 @@ function gameLoop() {
 						enemies.splice(n,1);
 						bullets.splice(i,1);
 						score += 1;
-						if(score >= 50) playing = false;
+						if(score >= 0) playing = false;
 						break;
 					}
 				}

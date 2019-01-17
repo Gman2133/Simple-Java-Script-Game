@@ -47,9 +47,9 @@ var map =
 "                           "+
 "                           "+
 "                           ";
-var w = window.innerWidth
+var w = window.outerWidth
     document.documentElement.clientWidth;
-var h = window.innerHeight
+var h = window.outerHeight
     document.documentElement.clientHeight;
 
 function init() {

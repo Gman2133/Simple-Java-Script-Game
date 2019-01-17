@@ -47,15 +47,15 @@ var map =
 "                           "+
 "                           "+
 "                           ";
-var w = window.outerWidth
+var w = window.innerWidth
     document.documentElement.clientWidth;
-var h = window.outerHeight
+var h = window.innerHeight
     document.documentElement.clientHeight;
 
 function init() {
     canvas = document.getElementById('canvas');
-	canvas.width = w - 18;     //XSIZE * SIZE;
-	canvas.height = h - 18;    //YSIZE * SIZE;
+	canvas.width = w;     //XSIZE * SIZE;
+	canvas.height = h;    //YSIZE * SIZE;
 
 	context = canvas.getContext('2d');
 
